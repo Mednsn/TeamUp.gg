@@ -17,11 +17,7 @@
             width: 100%;
             background: rgba(10, 14, 39, 0.95);
             border-bottom: 1px solid rgb(30, 240, 254);
-
-          
-           
-           
-       
+            z-index: 10;       
         }
 
         nav{
@@ -148,35 +144,151 @@
         }
         .marche-cls{
             margin-top: 100px;
+            margin: 25px;
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 2rem;
         }
         
         .test img{
-            width: 100px;
-            height: 100px;
-            padding: 20px;
+            width: 90px;
+            height: 90px;
+            padding: 15px;
             border: 20px;
             border-radius: 50%;
-            background: linear-gradient(135deg, #493697 100%, #912c76 100%);
+            background: linear-gradient(131.79deg, rgba(26, 31, 58, 0.6) 0%, rgba(15, 20, 40, 0.6) 100%);
             margin: 0 auto 1.5rem; 
         }
         .test h2{
             color: #ffffff;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 26px;
+            font-size: 22px;
             margin: 0 auto 1.4rem;
+        }
+        hr{
+            border-radius: 25px;
         }
         .test p{
          color: #cdcbd0;
         }
         .test{
-            text-align: center;      
+            text-align: center;
             margin-bottom:40px ;
-            background:rgba(91, 96, 121, 0.546);
+            background: linear-gradient(136.5deg, rgba(26, 31, 58, 0.8) 0%, rgba(15, 20, 40, 0.8) 100%);
             padding: 2rem;
             border-radius: 15px;            
             border: 1px solid rgb(33, 252, 248);
+            
+        }
+        .joueur-class{
+            margin-top: 100px;
+            margin: 25px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 35px;
+           
+        }
+        .test-joueur{
+           
+            text-align: center;
+            margin-bottom:40px ;
+            background: linear-gradient(136.5deg, rgba(26, 31, 58, 0.8) 0%, rgba(15, 20, 40, 0.8) 100%);
+            padding: 2rem;
+            border-radius: 15px;           
+            width: 365.33px;
+            Height:384.89px ;       
+            border: 1px solid rgba(0, 255, 255, 0.2)   
+             }
+        .test-joueur img{
+            width: 30%;
+            height: 30%;
+            padding: 1px;
+            border: 2px solid rgba(0, 255, 255, 1);
+            box-shadow:0 0 10px #00FFFF;
+            border-radius: 50%;
+            background: linear-gradient(131.79deg, rgba(26, 31, 58, 0.6) 0%, rgba(15, 20, 40, 0.6) 100%);
+            margin: 0 auto 7px; 
+        }
+        .test-joueur h2{
+            color: #ffffff;
+            font-size: 18px solid;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-bottom: 1rem;
+
 
         }
+         .type-jeux1{
+            color:rgba(255, 70, 85, 1);
+            background: rgba(255, 70, 85, 0.2);
+            border:1px solid red;
+            font-size: 13px;
+            width: 100px;
+            margin-left: 100px;
+            margin-bottom: 10px;
+            padding: 4px;
+            border-radius: 50px;
+        }
+        .type-jeux2{
+            color:rgba(0, 150, 255, 1);
+            background: rgba(0, 150, 255, 0.2);
+            border: 1px solid rgba(0, 150, 255, 0.4);
+            font-size: 13px;
+            width: 200px;
+            margin-left: 50px;
+            margin-bottom: 10px;
+            padding: 4px;
+            border-radius: 50px;
+
+        }
+         .type-jeux3{
+            color: rgba(255, 165, 0, 1);
+            background: rgba(255, 165, 0, 0.2);
+            border: 1px solid rgba(255, 165, 0, 0.4);
+            font-size: 13px;
+            width: 53px;
+            margin-left: 123px;
+            margin-bottom: 10px;
+            padding: 4px;
+            border-radius: 50px;
+
+        }
+         .test-joueur h4{
+            color:rgba(0, 255, 255, 1) ;
+            margin-bottom: 10px;
+            
+        }
+         .test-joueur p{
+            color: #cdcbd0;
+            margin-bottom: 40px;
+            
+        }
+        .test-joueur__a{ 
+            border: 1px solid rgb(33, 252, 248); 
+            padding: 8px 100px;
+            border-radius: 4px;
+            text-decoration: none;
+            background: #00FFFF;
+            color: #0a143a;
+            box-shadow:0 0 20px #00FFFF;
+        }
+        .enligne-photo img{
+            width:5%;
+            height: 5%;
+            border-radius: 50%;
+            border: 2px solid rgb(6, 20, 8);
+            display: flex;
+            top:-85px;
+            right: -45px;
+            position: relative;
+            z-index: 3;
+
+        }
+        .enligne-photo-image--enligne img{
+            background: rgb(75, 255, 47);
+            box-shadow:0 0 20px rgb(66, 255, 49);
+
+        }
+        .enligne-photo-image--offligne img{
+         background: rgb(117, 117, 117);
+        }
+        
