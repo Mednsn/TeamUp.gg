@@ -543,18 +543,21 @@
         .social-link {
             width: 40px;
             height: 40px;
-            background:linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            border-radius: 50%;
+            border-radius: 8px;
             display: flex;
-            align-items: center;
-            justify-content: center;
-            color: white;
+            border: 1px solid rgb(15, 239, 255);
             text-decoration: none;
             transition:  all 0.3s cubic-bezier(0.4, 0, 0.2, 1);;
         }
 
         .social-link:hover {
             transform: scale(1.1);
+        }
+        .social-link i{
+            color: rgba(0, 255, 255, 1);
+            display: flex;
+            margin-left: 9px;
+            margin-top: 10px;
         }
 
         .footer-bottom {
@@ -572,4 +575,29 @@
         .form-conection h1{
             color: #00ffff;
             text-shadow: #00ffff;
+        }
+        .form-annance{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .nom-prenom {
+            display: flex;
+            gap: 12px;
+            
+        }
+        .jeu-role{
+            display: flex;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        .div-annance-input{
+            width: 520px;
+            height: 100px;
+            border-radius: 8px;
+            background: rgba(26, 31, 58, 0.9);
+            border: 1px solid rgb(0, 255, 213);
+
         }
