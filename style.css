@@ -597,7 +597,35 @@
             width: 520px;
             height: 100px;
             border-radius: 8px;
+            color: #00ffff;
             background: rgba(26, 31, 58, 0.9);
             border: 1px solid rgb(0, 255, 213);
 
+        }
+        .form-annance h1{
+            color: #7ff85ae0;
+            text-shadow: #00ffff;
+            font-weight: 120px;
+            background: linear-gradient(111.01deg, #00FFFF 0%, #FF00FF 100%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-style:italic;
+            font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+        }
+        .button-ajouter{
+            background: linear-gradient(100.36deg, #712a6c 0%, #5990b5 100%);
+     padding: 14px 80px;
+     border-radius: 8px;
+     box-shadow: 0 0 20px #00FFFF;
+     display: flex;
+     align-self: center;
+     text-decoration: none;
+     color: #0a143a;
+     font-size: 20px;
+     margin-top: 18px;
+        }
+        .button-ajouter:hover{
+            background: #40414a;
+            color: #00ffff;
         }
