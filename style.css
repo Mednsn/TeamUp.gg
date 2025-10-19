@@ -341,10 +341,10 @@
      padding: 41px 40px;
      gap: 32px;
      background: linear-gradient(101.56deg, rgba(26, 31, 58, 0.9) 0%, rgba(15, 20, 40, 0.9) 100%);
-     border: 1px solid rgba(0, 255, 255, 0.2);
      border-radius: 16px;
      border: 1px solid rgba(0, 255, 255, 1);
      margin-bottom: 60px;
+     
 
 
  }
@@ -358,25 +358,27 @@
  }
 
  .form-recherche {
+    
      display: flex;
-     justify-content: space-between;
+     justify-content: space-evenly;
 
-     height: 80px;
-     width: 1070px;
+     
 
 
  }
 
- input {
+ .label-test{ 
      background: rgba(26, 31, 58, 0.9);
      border-radius: 8px;
      border: 1px solid rgb(0, 255, 213);
      padding: 15px 30px;
      font: 1em sans-serif;
 
- }
 
- input:hover {
+}
+ 
+
+.label-test:hover {
      color: #00ffff;
      background: #384448ce;
 
@@ -386,7 +388,7 @@
      color: rgba(0, 255, 255, 1);
      border-radius: 5px;
  }
-
+ 
  .button-recherche {
 
      background: linear-gradient(100.36deg, #00FFFF 0%, #0099FF 100%);
@@ -395,6 +397,7 @@
      box-shadow: 0 0 20px #00FFFF;
      display: flex;
      align-self: center;
+     margin-bottom: -15px;
      text-decoration: none;
 
  }
